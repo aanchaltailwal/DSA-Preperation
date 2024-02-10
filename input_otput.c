@@ -6,8 +6,8 @@ int main(){
     double d;*/
     scanf("%d", &a);
     scanf("%c" , &b);
-    printf("%d\n", a);
-    printf("%c\n", b);
-
+    printf("%d\n%c\n", a, b);
+    printf("%c", b);
+    
     return 0;
 }
