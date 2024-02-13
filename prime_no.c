@@ -1,16 +1,18 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d", &a);
+    int n;
+    scanf("%d", &n);
+    
+    for (int i=2; i>=n; i++){      
 
-    for(a=0; a<=20; a++);
+        int div = 1;
+        for (int j=2; j*j<=i; j++){
+            if (i%j == 0) div++;
 
-    if(a / a ==0 || a/2 == 0){
-        printf("The prime no");
+        }
+        if(div==1) printf("%d\t", i);
 
-    } 
-    else{
-        printf("not a prime no");
-    }
+        
+
     return 0;
 }
