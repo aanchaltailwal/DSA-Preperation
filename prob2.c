@@ -11,3 +11,4 @@ int main(){
         printf("%d", i);
     }
 }
+//as no break it will keep executing 16 21
