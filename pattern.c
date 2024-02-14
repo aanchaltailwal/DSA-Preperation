@@ -10,7 +10,7 @@ int main(){
         for(int num =1; num<=rn; num++) printf("%d", num);
         if(rn != 1){
             for(int sp = 1; sp<=2*rn-3; sp++) printf(" ");
-            for(int num = 1; num<=rn; num++) printf("%d", um);
+            for(int num = 1; num<=rn; num++) printf("%d", num);
         }
     printf("\n");
 }
