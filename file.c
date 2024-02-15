@@ -19,11 +19,14 @@ int main() {
     //printf("\n%d",*(*((*pptr)+2)+3)); //
 
     char str[4];
-    str[0] = 'A'; str[1] = 'B'; str[2] = 'C'; str[3] = 'D';
+    str[0] = 'A'; str[1] = 'B'; str[2] = 'C'; str[3] = 'D'; //whole string
     printf("%s", str);
 
+
+//char & char pointer
     char *cptr = str;
-    printf("\n%p\t%s", cptr, cptr);
+    printf("\n%p\t%c", cptr, *cptr);     //ABCD and its addresss 
 
     return 0;
 }
+//
